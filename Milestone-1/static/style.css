@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    padding: 30px;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+button {
+    padding: 8px 15px;
+    background: #4f46e5;
+    color: white;
+    border: none;
+}
+
+.preview {
+    background: white;
+    padding: 15px;
+    margin-top: 20px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.stats {
+    margin-top: 10px;
+}
