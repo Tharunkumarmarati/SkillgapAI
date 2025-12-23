@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume & JD Parser</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>Milestone 1: Data Ingestion and Parsing</h1>
+
+<form method="post" enctype="multipart/form-data">
+    <input type="file" name="document" required>
+    <button type="submit">Upload & Parse</button>
+</form>
+
+<div class="stats">
+    <p><b>Words:</b> {{ words }}</p>
+    <p><b>Characters:</b> {{ chars }}</p>
+</div>
+
+<div class="preview">
+    <h3>Parsed Document Preview</h3>
+    <pre>{{ text }}</pre>
+</div>
+
+</body>
+</html>
